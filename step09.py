@@ -150,7 +150,7 @@ snack = Cube(randomSnack(s), color = (0,255,0))
 
 running = True
 while running :
-    pygame.time.delay(150)
+    pygame.time.delay(120)
 
     for event in pygame.event.get() :
         if event.type == pygame.QUIT :
